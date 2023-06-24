@@ -327,38 +327,7 @@ html[light-mode="dark"] .github-icon{
   100% { transform: rotate(-10deg); }
  }
 
- /*
-  --------------------------
-     DRIBBBLE MICROANIMATION
-  --------------------------
-  */
-  
-  .dribbble-icon{
-    width: 30px;
-    height: 30px;
-    margin-left:16px;
-    margin-top: 20px;
-  }
-  
-  .dribbble:hover .dribbble-icon{ 
-      animation: dribbble-bounce .4s ease infinite;
-      transform: rotate(360deg);
-      transition: all 9s ease-in-out 0s;
-  }
-  
-  @keyframes dribbble-bounce {
-    from, to {
-      margin-top: 20px;
-    }
-    50% { 
-      margin-top: 15px; 
-    }
-    
-    75%{
-      margin-top: 15px;
-    }
-  }
-  
+ 
   /*
   --------------------------
      CODEFORCES MICROANIMATION
@@ -599,4 +568,12 @@ a:hover {
   .text{
     margin-top: 1rem;
   }
+}
+.btn{
+  font-size:20px;
+  background-color: rgb(157, 65, 226);
+  width:6em;
+  border-radius:10px;
+  color:white;
+  padding:3px;
 }
